@@ -45,7 +45,15 @@ main {
     
 }
 p {
+    color: aliceblue;
+    background-color: rgb(35, 65, 35); 
     text-align: justify;
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 10px;
+    left: 50px;
+    padding: 15px;
+    content: 30px;
 }
 h2, h3 {
     text-shadow: 2px 2px 2px darkred;
