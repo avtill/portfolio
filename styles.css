@@ -1,6 +1,6 @@
 html {
     color: azure;
-    background-image: linear-gradient(to bottom right, indigo,darkgreen);
+    background-image: linear-gradient(to bottom right, midnightblue    ,darkgreen);
 }
 
 .title {
@@ -48,13 +48,24 @@ p {
     color: aliceblue;
     background-color: rgb(35, 65, 35); 
     text-align: justify;
-    box-sizing: border-box;
+    box-sizing: border-box center;
     width: 80%;
     border-radius: 10px;
-    left: 50px;
     padding: 15px;
     content: 30px;
+
 }
 h2, h3 {
     text-shadow: 2px 2px 2px darkred;
+}
+table {
+    width: 100%;
+    border: 2px solid;
+    border-color: bisque;
+}
+th, td {
+    border: 1px solid;
+}
+tr:hover {
+background-color: midnightblue;
 }
