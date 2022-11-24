@@ -1,8 +1,16 @@
 html {
     color: azure;
     background-image: linear-gradient(to bottom right, midnightblue    ,darkgreen);
+    justify-content: space-evenly;
 }
-
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: azure;
+    text-align: center;
+    padding: 15px 5px 15px 5px; 
+justify-content: space-around;
+}    
 .title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -14,18 +22,21 @@ html {
 .nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:azure;
-    text-align: center;
     text-decoration-style: solid;
-    list-style: none;
-    background-color: transparent;
-    padding: 5px 5px 5px 5px;
+    list-style-type: none;
+    padding: 5px 5px 5px 5px; 
+    position: sticky;
+    top: 0px;
     
 }
 
 a {
     color: aquamarine;
     text-decoration: none;
-
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid #4CAF50;
+    display: block;
+    padding: 8px;
 }
 a:hover {
 text-decoration: underline;
@@ -34,15 +45,9 @@ text-transform: uppercase;
 
 a:active {
     color: bisque;
-}
-
-main {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: azure;
-    text-align: center;
-    padding: 15px 5px 15px 5px;
-    
+} 
+ul {
+    text-align: left;
 }
 p {
     color: aliceblue;
@@ -53,6 +58,7 @@ p {
     border-radius: 10px;
     padding: 15px;
     content: 30px;
+    margin: auto;
 
 }
 h2, h3 {
@@ -68,4 +74,7 @@ th, td {
 }
 tr:hover {
 background-color: midnightblue;
+}
+.inTable {
+    list-style-type: none
 }
