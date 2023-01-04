@@ -1,15 +1,14 @@
 ul {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: darkgreen;
   }
   .nav {
     list-style-type: none;
+    overflow: hidden;
   }
   li {
     float: left;
-    color: white;
   }
   
   li a {
@@ -23,4 +22,4 @@ ul {
   li a:hover {
     background-color: darkgreen;
   }
- 
+  
