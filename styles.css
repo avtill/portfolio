@@ -1,12 +1,24 @@
+@font-face {
+    font-family: Trirong;
+    src: url(Trirong-Thin.woff);
+}
+
+html {
+    font-family: Trirong;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    overflow: hidden; 
+  }
 ul {
     margin: 0;
     padding: 0;
     background-color: darkgreen;
   }
-  .nav {
-    list-style-type: none;
-    overflow: hidden;
-  }
+
   li {
     float: left;
   }
@@ -17,9 +29,10 @@ ul {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
   }
   
   li a:hover {
-    background-color: darkgreen;
+    background-color: rgb(68, 138, 68);
   }
   
