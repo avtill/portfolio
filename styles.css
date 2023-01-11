@@ -7,20 +7,15 @@ html {
     font-family: Trirong;
 }
 
-
-
 .nav {
-    list-style-type: none;
+    
     overflow: hidden; 
+    background-color: darkgreen;
   }
 ul {
     margin: 0;
     padding: 0;
-    background-color: darkgreen;
-  }
-
-  li {
-    float: left;
+    list-style-type: none;
   }
   
   li a {
@@ -35,4 +30,13 @@ ul {
   li a:hover {
     background-color: rgb(68, 138, 68);
   }
-  
+  .ul_tab .progr {
+    float: left;
+  }
+  table {
+    padding: 6px;
+    border:6px double;
+  }
+  table tr td{
+    border: solid dotted;
+  }
